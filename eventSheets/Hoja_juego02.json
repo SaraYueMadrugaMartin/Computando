@@ -2,72 +2,29 @@
 	"name": "Hoja_juego02",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Palabra",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 905004633765588
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-text-changed",
-					"objectClass": "EntradaDeTexto",
-					"sid": 914408154829941
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 747182476168066,
+					"parameters": {
+						"key": 13
+					}
 				}
 			],
 			"actions": [],
-			"sid": 141130403735416,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-text",
-							"objectClass": "EntradaDeTexto",
-							"sid": 424180872217452,
-							"parameters": {
-								"text": "\"reconocimiento-nocomercial-compartirigual\"",
-								"case": "case-insensitive"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 282526288835748,
-							"parameters": {
-								"audio-file": "Correcto",
-								"loop": "not-looping",
-								"volume": "0",
-								"stereo-pan": "0",
-								"tag-optional": "\"\""
-							}
-						}
-					],
-					"sid": 465715654827387
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 733266621524230
-						}
-					],
-					"actions": [
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 297656803823675,
-							"parameters": {
-								"audio-file": "Incorrecto",
-								"loop": "not-looping",
-								"volume": "0",
-								"stereo-pan": "0",
-								"tag-optional": "\"\""
-							}
-						}
-					],
-					"sid": 826851600061392
-				}
-			]
+			"sid": 494625885524296
 		}
 	],
 	"sid": 982089106795054
