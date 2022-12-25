@@ -55,6 +55,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Entrada de texto",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "TileMovement",
 			"name": "Movimiento en cuadrícula",
@@ -64,16 +72,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Sólido",
+			"id": "DragnDrop",
+			"name": "Arrastrar y soltar",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "DragnDrop",
-			"name": "Arrastrar y soltar",
+			"id": "solid",
+			"name": "Sólido",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -100,7 +108,13 @@
 			"Arbol",
 			"Malla",
 			"Caja_Malla",
-			"Audio"
+			"Audio",
+			"Fondo_Principal",
+			"Pared01",
+			"Pared02",
+			"Puerta_juego02",
+			"Fondo_Juego02",
+			"EntradaDeTexto"
 		],
 		"subfolders": []
 	},
@@ -115,7 +129,8 @@
 			"Menu",
 			"Escena 1",
 			"Instrucciones",
-			"Juego01"
+			"Juego01",
+			"Juego02"
 		],
 		"subfolders": []
 	},
@@ -124,7 +139,8 @@
 			"Hoja_menu",
 			"Hoja_escena1",
 			"Hoja_instrucciones",
-			"Hoja_juego01"
+			"Hoja_juego01",
+			"Hoja_juego02"
 		],
 		"subfolders": []
 	},

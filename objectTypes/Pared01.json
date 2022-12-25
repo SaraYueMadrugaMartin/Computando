@@ -1,10 +1,16 @@
 {
-	"name": "Puerta_juego01",
+	"name": "Pared01",
 	"plugin-id": "Sprite",
-	"sid": 849682826997942,
+	"sid": 254875870225635,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 225735214222982
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6397817,
+						"imageSpriteId": 4620635,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 923964719807293,
+				"sid": 757380848048263,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

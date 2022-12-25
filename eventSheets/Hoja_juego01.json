@@ -2,6 +2,16 @@
 	"name": "Hoja_juego01",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Puntos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 250873439347439
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -61,6 +71,15 @@
 							"id": "destroy",
 							"objectClass": "Caja_Bus",
 							"sid": 639691601725606
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 474542705373546,
+							"parameters": {
+								"variable": "Puntos",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 851098827942123
@@ -94,6 +113,15 @@
 							"parameters": {
 								"x": "1582",
 								"y": "802"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 353444905386484,
+							"parameters": {
+								"variable": "Puntos",
+								"value": "0"
 							}
 						}
 					],
@@ -161,6 +189,15 @@
 							"id": "destroy",
 							"objectClass": "Caja_Estrella",
 							"sid": 702719347995349
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 932767963639496,
+							"parameters": {
+								"variable": "Puntos",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 281222857045167
@@ -194,6 +231,15 @@
 							"parameters": {
 								"x": "1582",
 								"y": "635"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 547829881869866,
+							"parameters": {
+								"variable": "Puntos",
+								"value": "0"
 							}
 						}
 					],
@@ -261,6 +307,15 @@
 							"id": "destroy",
 							"objectClass": "Caja_Arbol",
 							"sid": 663676014579912
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 793961230284676,
+							"parameters": {
+								"variable": "Puntos",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 868501525102749
@@ -294,6 +349,15 @@
 							"parameters": {
 								"x": "1582",
 								"y": "451"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 144726221524286,
+							"parameters": {
+								"variable": "Puntos",
+								"value": "0"
 							}
 						}
 					],
@@ -361,6 +425,15 @@
 							"id": "destroy",
 							"objectClass": "Caja_Malla",
 							"sid": 411247575847775
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 918875476222039,
+							"parameters": {
+								"variable": "Puntos",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 343116900852867
@@ -395,11 +468,46 @@
 								"x": "1582",
 								"y": "272"
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 806046315330892,
+							"parameters": {
+								"variable": "Puntos",
+								"value": "0"
+							}
 						}
 					],
 					"sid": 989793159708923
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 596960938756727,
+					"parameters": {
+						"variable": "Puntos",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 589774446084578,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 972638460582542
 		}
 	],
 	"sid": 541984696354320

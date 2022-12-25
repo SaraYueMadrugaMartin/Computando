@@ -1,7 +1,7 @@
 {
-	"name": "Puerta_juego01",
+	"name": "Puerta_juego02",
 	"plugin-id": "Sprite",
-	"sid": 849682826997942,
+	"sid": 206980536313106,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6397817,
+						"imageSpriteId": 9023393,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 923964719807293,
+				"sid": 961338411693806,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

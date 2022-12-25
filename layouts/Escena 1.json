@@ -40,6 +40,39 @@
 					}
 				},
 				{
+					"type": "Fondo_Principal",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 1920,
+						"height": 1080,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Aland",
 					"properties": {
 						"initially-visible": true,
@@ -93,6 +126,35 @@
 					},
 					"uid": 10,
 					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1377,
+						"y": 245,
+						"width": 231.57573908025574,
+						"height": 94.72727272727275,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Pared01",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"instanceVariables": {},
 					"behaviors": {
 						"Sólido": {
 							"properties": {
@@ -102,10 +164,75 @@
 						}
 					},
 					"world": {
-						"x": 1356.2121304598722,
-						"y": 40.363636363636374,
-						"width": 231.57573908025574,
-						"height": 48.72727272727275,
+						"x": 961,
+						"y": 982.5,
+						"width": 1914,
+						"height": 195,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Pared02",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 26,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 958.5,
+						"y": 97,
+						"width": 1923,
+						"height": 186,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Puerta_juego02",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 22,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 586,
+						"y": 247.5,
+						"width": 250,
+						"height": 105,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
