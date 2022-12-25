@@ -1,0 +1,19 @@
+{
+	"name": "Hoja_juego01",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "Bus_Juego01",
+					"sid": 185286271057875,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [],
+			"sid": 411975000715372
+		}
+	],
+	"sid": 541984696354320
+}

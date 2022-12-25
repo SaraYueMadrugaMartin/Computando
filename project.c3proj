@@ -53,6 +53,30 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Sólido",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Arrastrar y soltar",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pegado",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "czqe7r97g8l",
@@ -64,9 +88,19 @@
 			"Titulo",
 			"Empezar_juego",
 			"Instrucciones",
-			"FondoEnMosaico",
 			"Fondo_hab_Aland",
-			"Aland"
+			"Aland",
+			"Puerta_juego01",
+			"Fondo_Juego01",
+			"Bus_Juego01",
+			"Estrella_Juego01",
+			"Mixta_Juego01",
+			"Anillo_Juego01",
+			"Anillo2_Juego01",
+			"Arbol_Juego01",
+			"Malla_Juego01",
+			"Conex_Juego01",
+			"Caja_Bus"
 		],
 		"subfolders": []
 	},
@@ -80,7 +114,8 @@
 		"items": [
 			"Menu",
 			"Escena 1",
-			"Instrucciones"
+			"Instrucciones",
+			"Juego01"
 		],
 		"subfolders": []
 	},
@@ -88,7 +123,8 @@
 		"items": [
 			"Hoja_menu",
 			"Hoja_escena1",
-			"Hoja_instrucciones"
+			"Hoja_instrucciones",
+			"Hoja_juego01"
 		],
 		"subfolders": []
 	},

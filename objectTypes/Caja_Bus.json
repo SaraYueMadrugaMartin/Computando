@@ -1,0 +1,57 @@
+{
+	"name": "Caja_Bus",
+	"plugin-id": "Sprite",
+	"sid": 193558370816809,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 402,
+						"height": 106,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 634489,
+						"collisionPoly": {
+							"points": [
+								0.3756218905472637,
+								0.02830188679245283,
+								0.5,
+								0.02830188679245283,
+								0.6218905472636816,
+								0.02830188679245283,
+								0.9950248756218906,
+								0.5,
+								0.6218905472636816,
+								0.9622641509433965,
+								0.5,
+								0.9622641509433965,
+								0.3756218905472637,
+								0.9622641509433965,
+								0.0024875621890547263,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 857570207301011,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

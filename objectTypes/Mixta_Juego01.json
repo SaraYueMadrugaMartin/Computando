@@ -1,0 +1,15 @@
+{
+	"name": "Mixta_Juego01",
+	"plugin-id": "Text",
+	"sid": 545284924071751,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 209865586824125
+		}
+	],
+	"effectTypes": []
+}

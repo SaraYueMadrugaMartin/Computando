@@ -1,0 +1,15 @@
+{
+	"name": "Anillo2_Juego01",
+	"plugin-id": "Text",
+	"sid": 377947945123000,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 355809504086018
+		}
+	],
+	"effectTypes": []
+}
