@@ -47,6 +47,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "TileMovement",
 			"name": "Movimiento en cuadrícula",
@@ -69,14 +77,6 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Pin",
-			"name": "Pegado",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
 		}
 	],
 	"uniqueId": "czqe7r97g8l",
@@ -92,15 +92,15 @@
 			"Aland",
 			"Puerta_juego01",
 			"Fondo_Juego01",
-			"Bus_Juego01",
-			"Estrella_Juego01",
-			"Mixta_Juego01",
-			"Anillo_Juego01",
-			"Anillo2_Juego01",
-			"Arbol_Juego01",
-			"Malla_Juego01",
-			"Conex_Juego01",
-			"Caja_Bus"
+			"Caja_Bus",
+			"Bus",
+			"Estrella",
+			"Caja_Estrella",
+			"Caja_Arbol",
+			"Arbol",
+			"Malla",
+			"Caja_Malla",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -134,7 +134,24 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "Correcto.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 662206386446165,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Incorrecto.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 137665012558751,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

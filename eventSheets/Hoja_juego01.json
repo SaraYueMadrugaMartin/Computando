@@ -6,13 +6,400 @@
 			"conditions": [
 				{
 					"id": "on-drop",
-					"objectClass": "Bus_Juego01",
-					"sid": 185286271057875,
+					"objectClass": "Bus",
+					"sid": 799993068273371,
 					"behaviorType": "ArrastrarYSoltar"
 				}
 			],
 			"actions": [],
-			"sid": 411975000715372
+			"sid": 512361560947586,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Bus",
+							"sid": 691862413718694,
+							"parameters": {
+								"object": "Caja_Bus"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 973509325794985,
+							"parameters": {
+								"audio-file": "Correcto",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Bus",
+							"sid": 529705848010873,
+							"parameters": {
+								"x": "356",
+								"y": "113"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Bus",
+							"sid": 290755082295056,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Caja_Bus",
+							"sid": 639691601725606
+						}
+					],
+					"sid": 851098827942123
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 548618682150234
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 801318721554415,
+							"parameters": {
+								"audio-file": "Incorrecto",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Bus",
+							"sid": 258566170375938,
+							"parameters": {
+								"x": "1582",
+								"y": "802"
+							}
+						}
+					],
+					"sid": 492998907755494
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "Estrella",
+					"sid": 779482514612582,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [],
+			"sid": 140121622104201,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Estrella",
+							"sid": 869289367571007,
+							"parameters": {
+								"object": "Caja_Estrella"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 135285998001987,
+							"parameters": {
+								"audio-file": "Correcto",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Estrella",
+							"sid": 780731857394990,
+							"parameters": {
+								"x": "976",
+								"y": "113"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Estrella",
+							"sid": 753890990099146,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Caja_Estrella",
+							"sid": 702719347995349
+						}
+					],
+					"sid": 281222857045167
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 363080860028725
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 382224990306710,
+							"parameters": {
+								"audio-file": "Incorrecto",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Estrella",
+							"sid": 698628446125024,
+							"parameters": {
+								"x": "1582",
+								"y": "635"
+							}
+						}
+					],
+					"sid": 170852995388803
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "Arbol",
+					"sid": 907458886462230,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [],
+			"sid": 167572784849370,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Arbol",
+							"sid": 624491220323749,
+							"parameters": {
+								"object": "Caja_Arbol"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 901990053551288,
+							"parameters": {
+								"audio-file": "Correcto",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Arbol",
+							"sid": 874450862324676,
+							"parameters": {
+								"x": "356",
+								"y": "605"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Arbol",
+							"sid": 936071266483093,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Caja_Arbol",
+							"sid": 663676014579912
+						}
+					],
+					"sid": 868501525102749
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 417849957193429
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 840362538404665,
+							"parameters": {
+								"audio-file": "Incorrecto",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Arbol",
+							"sid": 968075270549786,
+							"parameters": {
+								"x": "1582",
+								"y": "451"
+							}
+						}
+					],
+					"sid": 535157096206957
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "Malla",
+					"sid": 881613769823493,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [],
+			"sid": 152252669165164,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Malla",
+							"sid": 718989836395192,
+							"parameters": {
+								"object": "Caja_Malla"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 314613015476007,
+							"parameters": {
+								"audio-file": "Correcto",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Malla",
+							"sid": 947251722565224,
+							"parameters": {
+								"x": "976",
+								"y": "605"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Malla",
+							"sid": 790241564432141,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Caja_Malla",
+							"sid": 411247575847775
+						}
+					],
+					"sid": 343116900852867
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 723910848426604
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 346319833122168,
+							"parameters": {
+								"audio-file": "Incorrecto",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Malla",
+							"sid": 865870872939815,
+							"parameters": {
+								"x": "1582",
+								"y": "272"
+							}
+						}
+					],
+					"sid": 989793159708923
+				}
+			]
 		}
 	],
 	"sid": 541984696354320
