@@ -85,6 +85,22 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direcciones",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "custom",
+			"name": "Personalizado",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "czqe7r97g8l",
@@ -116,7 +132,15 @@
 			"Fondo_Juego02",
 			"Rellenar01",
 			"Rellenar02",
-			"Rellenar03"
+			"Rellenar03",
+			"Puerta_juego03",
+			"Plataforma",
+			"GPU",
+			"Palabra01",
+			"Palabra02",
+			"Palabra03",
+			"Incorr01",
+			"Incorr02"
 		],
 		"subfolders": []
 	},
@@ -132,7 +156,8 @@
 			"Escena 1",
 			"Instrucciones",
 			"Juego01",
-			"Juego02"
+			"Juego02",
+			"Juego03"
 		],
 		"subfolders": []
 	},
@@ -142,7 +167,8 @@
 			"Hoja_escena1",
 			"Hoja_instrucciones",
 			"Hoja_juego01",
-			"Hoja_juego02"
+			"Hoja_juego02",
+			"Hoja_juego03"
 		],
 		"subfolders": []
 	},

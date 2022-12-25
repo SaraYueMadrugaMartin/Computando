@@ -1,0 +1,174 @@
+{
+	"name": "Hoja_juego03",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Incorr01",
+					"sid": 359273981172888
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Incorr01",
+					"sid": 221239674713604,
+					"behaviorType": "Personalizado",
+					"parameters": {
+						"which": "vertical",
+						"speed": "200"
+					}
+				}
+			],
+			"sid": 588413347554516
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Incorr01",
+					"sid": 440956224127396,
+					"parameters": {
+						"object": "Plataforma"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 475952308558782,
+					"parameters": {
+						"audio-file": "Incorrecto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Incorr01",
+					"sid": 459268120902754
+				}
+			],
+			"sid": 229534920644794
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Incorr02",
+					"sid": 176615905766276
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Incorr02",
+					"sid": 118749714436401,
+					"behaviorType": "Personalizado",
+					"parameters": {
+						"which": "vertical",
+						"speed": "300"
+					}
+				}
+			],
+			"sid": 332861763073415
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Incorr02",
+					"sid": 907909051628968,
+					"parameters": {
+						"object": "Plataforma"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 464465081196568,
+					"parameters": {
+						"audio-file": "Incorrecto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Incorr02",
+					"sid": 423577115264329
+				}
+			],
+			"sid": 828630539292080
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "GPU",
+					"sid": 836489284136070
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "GPU",
+					"sid": 818244694310761,
+					"behaviorType": "Personalizado",
+					"parameters": {
+						"which": "vertical",
+						"speed": "250"
+					}
+				}
+			],
+			"sid": 324760949108321
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "GPU",
+					"sid": 459306859308348,
+					"parameters": {
+						"object": "Plataforma"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 198866936345097,
+					"parameters": {
+						"audio-file": "Correcto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "GPU",
+					"sid": 466555760852598
+				}
+			],
+			"sid": 103475647731575
+		}
+	],
+	"sid": 596205319520368
+}

@@ -192,6 +192,30 @@
 				}
 			],
 			"sid": 743592934083431
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Aland",
+					"sid": 337963757369592,
+					"parameters": {
+						"object": "Puerta_juego03"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 221930871662013,
+					"parameters": {
+						"layout": "Juego03"
+					}
+				}
+			],
+			"sid": 739527912655131
 		}
 	],
 	"sid": 774083823941760
