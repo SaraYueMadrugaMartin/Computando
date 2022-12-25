@@ -114,7 +114,9 @@
 			"Pared02",
 			"Puerta_juego02",
 			"Fondo_Juego02",
-			"EntradaDeTexto"
+			"Rellenar01",
+			"Rellenar02",
+			"Rellenar03"
 		],
 		"subfolders": []
 	},
@@ -163,6 +165,14 @@
 					"name": "Incorrecto.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 137665012558751,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Fondo.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 141869111193303,
 					"file-info": {
 						"purpose": "none"
 					}

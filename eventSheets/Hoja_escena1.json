@@ -170,6 +170,28 @@
 				}
 			],
 			"sid": 775560451499602
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 228715794320542
+				}
+			],
+			"actions": [
+				{
+					"id": "preload-by-name",
+					"objectClass": "Audio",
+					"sid": 467432710168330,
+					"parameters": {
+						"folder": "music",
+						"audio-file-name": "\"Fondo\""
+					}
+				}
+			],
+			"sid": 743592934083431
 		}
 	],
 	"sid": 774083823941760

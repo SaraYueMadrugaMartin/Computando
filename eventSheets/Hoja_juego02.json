@@ -3,28 +3,210 @@
 	"events": [
 		{
 			"eventType": "variable",
-			"name": "Palabra",
+			"name": "Palabras",
 			"type": "number",
 			"initialValue": "0",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 905004633765588
+			"sid": 899135174502041
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Teclado",
-					"sid": 747182476168066,
+					"id": "compare-text",
+					"objectClass": "Rellenar01",
+					"sid": 671578112713795,
 					"parameters": {
-						"key": 13
+						"text": "\"reconocimiento-nocomercial-compartirigual\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 777769872279663
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 290683577498395,
+					"parameters": {
+						"audio-file": "Correcto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Rellenar01",
+					"sid": 297295053290791,
+					"parameters": {
+						"mode": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 393333868366928,
+					"parameters": {
+						"variable": "Palabras",
+						"value": "1"
 					}
 				}
 			],
-			"actions": [],
-			"sid": 494625885524296
+			"sid": 313379962084911
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "Rellenar02",
+					"sid": 845209147570130,
+					"parameters": {
+						"text": "\"reconocimiento-nocomercial-sinobraderivada\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 624482402860731
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 209447841732506,
+					"parameters": {
+						"audio-file": "Correcto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Rellenar02",
+					"sid": 579929077354661,
+					"parameters": {
+						"mode": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 978808570385850,
+					"parameters": {
+						"variable": "Palabras",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 863417870751381
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "Rellenar03",
+					"sid": 816802516171876,
+					"parameters": {
+						"text": "\"reconocimiento-nocomercial\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 143758114099991
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 688861651291857,
+					"parameters": {
+						"audio-file": "Correcto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Rellenar03",
+					"sid": 107023140367135,
+					"parameters": {
+						"mode": "disabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 371690231917679,
+					"parameters": {
+						"variable": "Palabras",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 682189985997699
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 919632703820904,
+					"parameters": {
+						"variable": "Palabras",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 227329208491790,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 195822172503920
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 191894080138127
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 808051881157782
+				}
+			],
+			"sid": 385463575780258
 		}
 	],
 	"sid": 982089106795054

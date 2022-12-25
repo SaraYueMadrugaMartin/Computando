@@ -52,6 +52,31 @@
 				}
 			],
 			"sid": 692418369634589
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 419833711707908
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 461618483429408,
+					"parameters": {
+						"audio-file": "Fondo",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 793134000434696
 		}
 	],
 	"sid": 492261774691808
