@@ -1,0 +1,32 @@
+{
+	"name": "Hoja_menu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 647941566484913,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Empezar_juego"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 104770062601195,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 962050754040035
+		}
+	],
+	"sid": 492261774691808
+}
