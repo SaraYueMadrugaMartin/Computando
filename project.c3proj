@@ -37,6 +37,22 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "TileMovement",
+			"name": "Movimiento en cuadrícula",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "czqe7r97g8l",
@@ -46,7 +62,11 @@
 			"Teclado",
 			"Fondo_menu",
 			"Titulo",
-			"Empezar_juego"
+			"Empezar_juego",
+			"Instrucciones",
+			"FondoEnMosaico",
+			"Fondo_hab_Aland",
+			"Aland"
 		],
 		"subfolders": []
 	},
@@ -59,14 +79,16 @@
 	"layouts": {
 		"items": [
 			"Menu",
-			"Escena 1"
+			"Escena 1",
+			"Instrucciones"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja_menu",
-			"Hoja_escena1"
+			"Hoja_escena1",
+			"Hoja_instrucciones"
 		],
 		"subfolders": []
 	},

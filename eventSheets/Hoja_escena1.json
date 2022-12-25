@@ -1,5 +1,128 @@
 {
 	"name": "Hoja_escena1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 892201602691433,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Aland",
+					"sid": 814453102828127,
+					"parameters": {
+						"animation": "\"Espaldas\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 709293281585704
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 849599068841448,
+					"parameters": {
+						"key": 40
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Aland",
+					"sid": 853721017697885,
+					"parameters": {
+						"animation": "\"Frente\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 564828761905267
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 151131135875877,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Aland",
+					"sid": 969727027408604,
+					"parameters": {
+						"animation": "\"Izquierda\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 382706409551483
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 162712294879635,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Aland",
+					"sid": 914747970082143,
+					"parameters": {
+						"animation": "\"Derecha\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 336460118111872
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-released",
+					"objectClass": "Teclado",
+					"sid": 679524365859598
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Aland",
+					"sid": 170422203124110,
+					"parameters": {
+						"animation": "\"Parado\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 449753938278556
+		}
+	],
 	"sid": 774083823941760
 }
