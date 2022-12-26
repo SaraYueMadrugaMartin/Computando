@@ -189,12 +189,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 151,
-						"y": 480,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 121.98303061736132,
+						"y": 148.27682738254327,
+						"width": 132.48583694595877,
+						"height": 55.04693225219413,
+						"originX": 0.4964788732394366,
+						"originY": 0.461864406779661,
 						"color": [
 							1,
 							1,
@@ -380,6 +380,43 @@
 						"height": 135.99040078865082,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PSU",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {
+						"Personalizado": {
+							"properties": {
+								"stepping-mode": "none",
+								"pixels-per-step": 5,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1598,
+						"y": -299,
+						"width": 236.86265155771187,
+						"height": 126.96888900505812,
+						"originX": 0.4898336414048059,
+						"originY": 0.5948275862068966,
 						"color": [
 							1,
 							1,

@@ -1,0 +1,63 @@
+{
+	"name": "PSU",
+	"plugin-id": "Sprite",
+	"sid": 114159085870813,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "custom",
+			"name": "Personalizado",
+			"sid": 437029317347901
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 541,
+						"height": 290,
+						"originX": 0.4898336414048059,
+						"originY": 0.5948275862068966,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5817741,
+						"collisionPoly": {
+							"points": [
+								0.02033271719038817,
+								0.07586206896551724,
+								0.4898336414048059,
+								0.0034482758620689655,
+								0.8558225508317929,
+								0.2655172413793103,
+								0.9963031423290203,
+								0.5948275862068966,
+								0.878003696857671,
+								0.9620689655172414,
+								0.4898336414048059,
+								0.9896551724137931,
+								0.08502772643253234,
+								0.9896551724137931,
+								0.005545286506469501,
+								0.5948275862068966
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 886455190901518,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

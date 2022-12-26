@@ -74,9 +74,12 @@
 					}
 				},
 				{
-					"id": "destroy",
+					"id": "set-visible",
 					"objectClass": "Incorr01",
-					"sid": 459268120902754
+					"sid": 516300047619219,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 229534920644794
@@ -130,9 +133,12 @@
 					}
 				},
 				{
-					"id": "destroy",
+					"id": "set-visible",
 					"objectClass": "Incorr02",
-					"sid": 423577115264329
+					"sid": 905754595604816,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 828630539292080
@@ -186,9 +192,12 @@
 					}
 				},
 				{
-					"id": "destroy",
+					"id": "set-visible",
 					"objectClass": "GPU",
-					"sid": 466555760852598
+					"sid": 671669572412581,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				},
 				{
 					"id": "set-visible",
@@ -240,6 +249,19 @@
 						"which": "vertical",
 						"speed": "350"
 					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 563901963467787,
+					"parameters": {
+						"object-to-create": "Incorr01",
+						"layer": "0",
+						"x": "600",
+						"y": "-1000",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
 				}
 			],
 			"sid": 330819577632282
@@ -270,9 +292,12 @@
 					}
 				},
 				{
-					"id": "destroy",
+					"id": "set-visible",
 					"objectClass": "Incorr03",
-					"sid": 782202820208518
+					"sid": 746921514123240,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 586192187241237
@@ -299,6 +324,19 @@
 					"parameters": {
 						"which": "vertical",
 						"speed": "350"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 710518560115712,
+					"parameters": {
+						"object-to-create": "Incorr02",
+						"layer": "0",
+						"x": "1080",
+						"y": "-1000",
+						"create-hierarchy": false,
+						"template-name": "\"\""
 					}
 				}
 			],
@@ -330,9 +368,12 @@
 					}
 				},
 				{
-					"id": "destroy",
+					"id": "set-visible",
 					"objectClass": "Incorr04",
-					"sid": 698826325679104
+					"sid": 493860545539465,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 119285403749863
@@ -390,9 +431,12 @@
 					}
 				},
 				{
-					"id": "destroy",
+					"id": "set-visible",
 					"objectClass": "Grafica",
-					"sid": 784081405246237
+					"sid": 421816464819867,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				},
 				{
 					"id": "set-visible",
@@ -412,6 +456,68 @@
 				}
 			],
 			"sid": 367012457935548
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 127264012686751,
+					"parameters": {
+						"interval-seconds": "4.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "PSU",
+					"sid": 155261418089899,
+					"behaviorType": "Personalizado",
+					"parameters": {
+						"which": "vertical",
+						"speed": "350"
+					}
+				}
+			],
+			"sid": 837600618226296
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "PSU",
+					"sid": 431097910927467,
+					"parameters": {
+						"object": "Plataforma"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 436477362297484,
+					"parameters": {
+						"audio-file": "Correcto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PSU",
+					"sid": 337636461604313,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 937339804707167
 		}
 	],
 	"sid": 596205319520368
