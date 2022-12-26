@@ -1,14 +1,14 @@
 {
-	"name": "Incorr01",
+	"name": "Incorr03",
 	"plugin-id": "Sprite",
-	"sid": 536210902170860,
+	"sid": 627338172365860,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "custom",
 			"name": "Personalizado",
-			"sid": 318208804464878
+			"sid": 967483225402444
 		}
 	],
 	"effectTypes": [],
@@ -17,14 +17,14 @@
 			{
 				"frames": [
 					{
-						"width": 1040,
-						"height": 197,
+						"width": 601,
+						"height": 756,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3907520,
+						"imageSpriteId": 8402659,
 						"collisionPoly": {
 							"points": [
 								0.038461538461538464,
@@ -49,7 +49,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 331979182495576,
+				"sid": 959615589235415,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

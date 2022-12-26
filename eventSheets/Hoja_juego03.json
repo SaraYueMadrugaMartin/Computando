@@ -14,11 +14,35 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Incorr01",
-					"sid": 221239674713604,
+					"sid": 818247396558541,
 					"behaviorType": "Personalizado",
 					"parameters": {
 						"which": "vertical",
-						"speed": "200"
+						"speed": "350"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra01",
+					"sid": 767427412267801,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra02",
+					"sid": 289719789180754,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra03",
+					"sid": 308860109267233,
+					"parameters": {
+						"visibility": "invisible"
 					}
 				}
 			],
@@ -70,11 +94,11 @@
 				{
 					"id": "set-speed",
 					"objectClass": "Incorr02",
-					"sid": 118749714436401,
+					"sid": 445626469820712,
 					"behaviorType": "Personalizado",
 					"parameters": {
 						"which": "vertical",
-						"speed": "300"
+						"speed": "350"
 					}
 				}
 			],
@@ -126,11 +150,11 @@
 				{
 					"id": "set-speed",
 					"objectClass": "GPU",
-					"sid": 818244694310761,
+					"sid": 376000010026570,
 					"behaviorType": "Personalizado",
 					"parameters": {
 						"which": "vertical",
-						"speed": "250"
+						"speed": "350"
 					}
 				}
 			],
@@ -165,9 +189,229 @@
 					"id": "destroy",
 					"objectClass": "GPU",
 					"sid": 466555760852598
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra01",
+					"sid": 329286918646789,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra02",
+					"sid": 580628469185693,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra03",
+					"sid": 488753908604840,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 103475647731575
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-time",
+					"objectClass": "System",
+					"sid": 179137698954081,
+					"parameters": {
+						"comparison": 0,
+						"time-seconds": "2.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Incorr03",
+					"sid": 582163154374788,
+					"behaviorType": "Personalizado",
+					"parameters": {
+						"which": "vertical",
+						"speed": "350"
+					}
+				}
+			],
+			"sid": 330819577632282
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Incorr03",
+					"sid": 458885520096322,
+					"parameters": {
+						"object": "Plataforma"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 663875281857170,
+					"parameters": {
+						"audio-file": "Incorrecto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Incorr03",
+					"sid": 782202820208518
+				}
+			],
+			"sid": 586192187241237
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-time",
+					"objectClass": "System",
+					"sid": 863104979177679,
+					"parameters": {
+						"comparison": 0,
+						"time-seconds": "2.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Incorr04",
+					"sid": 103633301190370,
+					"behaviorType": "Personalizado",
+					"parameters": {
+						"which": "vertical",
+						"speed": "350"
+					}
+				}
+			],
+			"sid": 446853568941446
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Incorr04",
+					"sid": 706175101202536,
+					"parameters": {
+						"object": "Plataforma"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 812177873475068,
+					"parameters": {
+						"audio-file": "Incorrecto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Incorr04",
+					"sid": 698826325679104
+				}
+			],
+			"sid": 119285403749863
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-time",
+					"objectClass": "System",
+					"sid": 262758903897627,
+					"parameters": {
+						"comparison": 0,
+						"time-seconds": "2.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Grafica",
+					"sid": 830467503390148,
+					"behaviorType": "Personalizado",
+					"parameters": {
+						"which": "vertical",
+						"speed": "350"
+					}
+				}
+			],
+			"sid": 824128822758127
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Grafica",
+					"sid": 271665484691336,
+					"parameters": {
+						"object": "Plataforma"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 739262229944468,
+					"parameters": {
+						"audio-file": "Correcto",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Grafica",
+					"sid": 784081405246237
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra02",
+					"sid": 424335730708300,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra03",
+					"sid": 433101166027335,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 367012457935548
 		}
 	],
 	"sid": 596205319520368

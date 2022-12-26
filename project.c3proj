@@ -140,7 +140,11 @@
 			"Palabra02",
 			"Palabra03",
 			"Incorr01",
-			"Incorr02"
+			"Incorr02",
+			"Fondo_juego03",
+			"Grafica",
+			"Incorr03",
+			"Incorr04"
 		],
 		"subfolders": []
 	},
