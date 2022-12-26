@@ -1,7 +1,7 @@
 {
-	"name": "Fondo_Juego01",
+	"name": "FondoEnMosaico2",
 	"plugin-id": "TiledBg",
-	"sid": 302405739314638,
+	"sid": 680531321976978,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -14,7 +14,7 @@
 		"originalSource": "",
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
-		"imageSpriteId": 7861655,
+		"imageSpriteId": 4322459,
 		"useCollisionPoly": true
 	}
 }

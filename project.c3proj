@@ -148,7 +148,10 @@
 			"PSU",
 			"Jugarotravez",
 			"FondoEnMosaico",
-			"Pared03"
+			"Pared03",
+			"Salir",
+			"Sprite",
+			"FondoEnMosaico2"
 		],
 		"subfolders": []
 	},

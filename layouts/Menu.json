@@ -40,48 +40,6 @@
 					}
 				},
 				{
-					"type": "Titulo",
-					"properties": {
-						"text": "COMPUTANDO",
-						"enable-bbcode": true,
-						"font": "Footlight MT",
-						"size": 100,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.1607843137254902,
-							0.1568627450980392,
-							0.1568627450980392,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 529,
-						"y": 166,
-						"width": 902,
-						"height": 182,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Empezar_juego",
 					"properties": {
 						"text": "COMENZAR",
@@ -108,11 +66,40 @@
 					"behaviors": {},
 					"world": {
 						"x": 771,
-						"y": 476,
+						"y": 511,
 						"width": 440,
 						"height": 137,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1015,
+						"y": 256,
+						"width": 900.5184881196252,
+						"height": 104.28658738156268,
+						"originX": 0.4974640743871513,
+						"originY": 0.48905109489051096,
 						"color": [
 							1,
 							1,

@@ -26,6 +26,51 @@
 				}
 			],
 			"sid": 962050754040035
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 881252415392478,
+					"parameters": {
+						"object": "Empezar_juego"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "Empezar_juego",
+					"sid": 318491217822224,
+					"parameters": {
+						"size-pt": "63"
+					}
+				}
+			],
+			"sid": 215513912767622
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 776749494462490
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "Empezar_juego",
+					"sid": 448400564363824,
+					"parameters": {
+						"size-pt": "60"
+					}
+				}
+			],
+			"sid": 664733418474799
 		}
 	],
 	"sid": 492261774691808
