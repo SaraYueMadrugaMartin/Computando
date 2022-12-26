@@ -325,13 +325,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-time",
+					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 872433544479744,
-					"parameters": {
-						"comparison": 0,
-						"time-seconds": "4.0"
-					}
+					"sid": 759191501246246
 				}
 			],
 			"actions": [
@@ -434,13 +430,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-time",
+					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 174671114714167,
-					"parameters": {
-						"comparison": 0,
-						"time-seconds": "4.0"
-					}
+					"sid": 213156612257475
 				}
 			],
 			"actions": [
@@ -543,13 +535,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-time",
+					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 763044956896039,
-					"parameters": {
-						"comparison": 0,
-						"time-seconds": "4.0"
-					}
+					"sid": 594526286509327
 				}
 			],
 			"actions": [
@@ -631,12 +619,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-x-seconds",
+					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 127264012686751,
-					"parameters": {
-						"interval-seconds": "4.0"
-					}
+					"sid": 589494078335000
 				}
 			],
 			"actions": [
@@ -694,6 +679,22 @@
 						"variable": "Aciertos",
 						"value": "1"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Incorr01",
+					"sid": 878144030233972,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Incorr02",
+					"sid": 528747548533295,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 937339804707167
@@ -729,11 +730,21 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 841879367195160,
+					"sid": 256900833699643,
 					"parameters": {
 						"variable": "Segundos",
 						"comparison": 0,
 						"value": "9"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 838199152732609,
+					"parameters": {
+						"variable": "Aciertos",
+						"comparison": 1,
+						"value": "3"
 					}
 				}
 			],
@@ -745,9 +756,63 @@
 					"parameters": {
 						"layout": "Escena 1"
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 709146618215869,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 409995903157608,
+					"parameters": {
+						"variable": "Segundos",
+						"value": "0"
+					}
 				}
 			],
 			"sid": 446247054297365
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 150628634489471,
+					"parameters": {
+						"variable": "Segundos",
+						"comparison": 0,
+						"value": "9"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 588472436908396,
+					"parameters": {
+						"variable": "Aciertos",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 920927981512665,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 342271279333271
 		}
 	],
 	"sid": 596205319520368
