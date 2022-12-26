@@ -508,24 +508,6 @@
 				}
 			],
 			"sid": 972638460582542
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 416045526345616
-				}
-			],
-			"actions": [
-				{
-					"id": "stop-all",
-					"objectClass": "Audio",
-					"sid": 172719232608774
-				}
-			],
-			"sid": 807586444685320
 		}
 	],
 	"sid": 541984696354320

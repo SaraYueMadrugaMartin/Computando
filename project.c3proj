@@ -145,7 +145,8 @@
 			"Grafica",
 			"Incorr03",
 			"Incorr04",
-			"PSU"
+			"PSU",
+			"Texto"
 		],
 		"subfolders": []
 	},
@@ -162,7 +163,8 @@
 			"Instrucciones",
 			"Juego01",
 			"Juego02",
-			"Juego03"
+			"Juego03",
+			"Final"
 		],
 		"subfolders": []
 	},
@@ -173,7 +175,8 @@
 			"Hoja_instrucciones",
 			"Hoja_juego01",
 			"Hoja_juego02",
-			"Hoja_juego03"
+			"Hoja_juego03",
+			"Hoja_final"
 		],
 		"subfolders": []
 	},

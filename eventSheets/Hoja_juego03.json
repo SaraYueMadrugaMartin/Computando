@@ -2,6 +2,16 @@
 	"name": "Hoja_juego03",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Aciertos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 151261809506928
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -80,6 +90,39 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 477634501263461,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra01",
+					"sid": 579503683037901,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra02",
+					"sid": 712649301699405,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra03",
+					"sid": 757783451738863,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 229534920644794
@@ -136,6 +179,39 @@
 					"id": "set-visible",
 					"objectClass": "Incorr02",
 					"sid": 905754595604816,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 943100820655779,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra01",
+					"sid": 780561423871501,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra02",
+					"sid": 930818281657927,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra03",
+					"sid": 988708547693005,
 					"parameters": {
 						"visibility": "invisible"
 					}
@@ -222,6 +298,15 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 541677828082718,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 103475647731575
@@ -232,10 +317,10 @@
 				{
 					"id": "compare-time",
 					"objectClass": "System",
-					"sid": 179137698954081,
+					"sid": 872433544479744,
 					"parameters": {
 						"comparison": 0,
-						"time-seconds": "2.0"
+						"time-seconds": "4.0"
 					}
 				}
 			],
@@ -253,14 +338,14 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 563901963467787,
+					"sid": 578499596757600,
 					"parameters": {
 						"object-to-create": "Incorr01",
 						"layer": "0",
 						"x": "600",
-						"y": "-1000",
+						"y": "-1500",
 						"create-hierarchy": false,
-						"template-name": "\"\""
+						"template-name": "\"ultima linea\""
 					}
 				}
 			],
@@ -298,6 +383,39 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 362196934624061,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra01",
+					"sid": 760338021639731,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra02",
+					"sid": 251288019554724,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra03",
+					"sid": 910854698121118,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 586192187241237
@@ -308,10 +426,10 @@
 				{
 					"id": "compare-time",
 					"objectClass": "System",
-					"sid": 863104979177679,
+					"sid": 174671114714167,
 					"parameters": {
 						"comparison": 0,
-						"time-seconds": "2.0"
+						"time-seconds": "4.0"
 					}
 				}
 			],
@@ -329,14 +447,14 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 710518560115712,
+					"sid": 598995431791438,
 					"parameters": {
 						"object-to-create": "Incorr02",
 						"layer": "0",
 						"x": "1080",
-						"y": "-1000",
+						"y": "-1500",
 						"create-hierarchy": false,
-						"template-name": "\"\""
+						"template-name": "\"ultima linea\""
 					}
 				}
 			],
@@ -374,6 +492,39 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 280639126779630,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra01",
+					"sid": 717669170591236,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra02",
+					"sid": 597137618348335,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Palabra03",
+					"sid": 195477131289582,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 119285403749863
@@ -384,10 +535,10 @@
 				{
 					"id": "compare-time",
 					"objectClass": "System",
-					"sid": 262758903897627,
+					"sid": 763044956896039,
 					"parameters": {
 						"comparison": 0,
-						"time-seconds": "2.0"
+						"time-seconds": "4.0"
 					}
 				}
 			],
@@ -453,6 +604,15 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 218795560760185,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 367012457935548
@@ -514,6 +674,23 @@
 					"sid": 337636461604313,
 					"parameters": {
 						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 834046134370037,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 594629754016435,
+					"parameters": {
+						"layout": "Escena 1"
 					}
 				}
 			],
