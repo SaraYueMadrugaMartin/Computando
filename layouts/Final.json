@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Texto",
+					"type": "Jugarotravez",
 					"properties": {
 						"text": "JUGAR DE NUEVO",
 						"enable-bbcode": true,

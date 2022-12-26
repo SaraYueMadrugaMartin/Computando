@@ -12,6 +12,16 @@
 			"sid": 151261809506928
 		},
 		{
+			"eventType": "variable",
+			"name": "Segundos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 551435851101640
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -684,17 +694,60 @@
 						"variable": "Aciertos",
 						"value": "1"
 					}
-				},
+				}
+			],
+			"sid": 937339804707167
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 615226110577853,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 750771137802253,
+					"parameters": {
+						"variable": "Segundos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 301762013742554
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 841879367195160,
+					"parameters": {
+						"variable": "Segundos",
+						"comparison": 0,
+						"value": "9"
+					}
+				}
+			],
+			"actions": [
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 594629754016435,
+					"sid": 164194390296344,
 					"parameters": {
 						"layout": "Escena 1"
 					}
 				}
 			],
-			"sid": 937339804707167
+			"sid": 446247054297365
 		}
 	],
 	"sid": 596205319520368

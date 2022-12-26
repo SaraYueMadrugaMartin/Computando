@@ -201,6 +201,75 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
+					"sid": 508918082399057,
+					"parameters": {
+						"variable": "Aciertos",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Puerta_juego03",
+					"sid": 826772849800702
+				}
+			],
+			"sid": 904866246772504
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 366667672526062,
+					"parameters": {
+						"variable": "Palabras",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Puerta_juego02",
+					"sid": 286903119374758
+				}
+			],
+			"sid": 255563384399110
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 889288349831185,
+					"parameters": {
+						"variable": "Puntos",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Puerta_juego01",
+					"sid": 872778474600225
+				}
+			],
+			"sid": 729495031030550
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
 					"sid": 697940342412618,
 					"parameters": {
 						"variable": "Aciertos",

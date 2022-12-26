@@ -1,5 +1,37 @@
 {
 	"name": "Hoja_final",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 598593960157081,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Jugarotravez"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 784907518395258,
+					"parameters": {
+						"layout": "Menu"
+					}
+				},
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 863752989702937
+				}
+			],
+			"sid": 885638825364993
+		}
+	],
 	"sid": 101322328694640
 }
